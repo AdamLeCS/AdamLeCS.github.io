@@ -1,9 +1,33 @@
 body {
-    background: #757aa1;
+    background: #6068a5;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: #35363d;
+    color: #212a6a;
     text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.about {
+    color: #1e4758;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.skills {
+    color: #1e4758;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.projects {
+    color: #1e4758;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact {
+    color: #1e4758;
+    font-family: 'Times New Roman', Times, serif;
 }
