@@ -22,8 +22,14 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.project {
+.projects {
     display:flex;
+    flex-wrap:wrap;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
     flex-wrap:wrap;
     width: 30%;
     margin: 10px;
@@ -32,6 +38,10 @@ h2 {
     border-radius: 25%;
     color: #1e4758;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.project h3 {
+    margin-left: 60px;
 }
 
 .contact {
@@ -43,8 +53,10 @@ h2 {
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(126, 14, 201); /* choose a color */
-    display: block;
+    border: 2px solid rgb(126, 14, 201);
+    display: flex;
     margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
