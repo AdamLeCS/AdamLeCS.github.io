@@ -10,6 +10,7 @@ h1 {
 
 h2 {
     font-size: 28px;
+    clear: both;
 }
 
 .about {
@@ -23,8 +24,13 @@ h2 {
 }
 
 .projects {
+    color: #1e4758;
     display:flex;
     flex-wrap:wrap;
+}
+
+.projects h2 {
+    width: 100%;
 }
 
 .project {
